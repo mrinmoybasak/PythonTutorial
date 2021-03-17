@@ -3,8 +3,8 @@
 #
 numbers = [2,7,9,11,5,3]
 # numbers.remove(9)
-numbers.pop()
-# numbers.sort()
+# numbers.pop()
+numbers.sort()
 # print(numbers)
 # numbers.reverse()
 # print(numbers)
