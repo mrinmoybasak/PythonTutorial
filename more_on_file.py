@@ -1,8 +1,7 @@
 f = open("mrinmoy2.txt")
-
-f.seek(7)
-f.tell()
-print(f.readlines())
-print(f.readlines())
-
-f.close()
+print(f.tell())
+print(f.readline())
+print(f.tell())
+print(f.readline())
+print(f.tell())
+print(f.readline())

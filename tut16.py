@@ -5,8 +5,9 @@
 #
 # # for item, age in dic1.items():
 # #     print(item,"age is",age)
+#
+# items = [int,float,"Mrinmoy", 5,9,52,654,482,7,6,2]
+# for item in items:
+#     if str(item).isnumeric() and item>=6:
+#       print(item)
 
-items = [int,float,"Mrinmoy", 5,9,52,654,482,7,6,2]
-for item in items:
-    if str(item).isnumeric() and item>=6:
-      print(item)
