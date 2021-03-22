@@ -48,6 +48,7 @@ while rounds <= n:
 		elif player == 'g':
 			user_win += 1
 
+
 	elif computer == 'w':
 		if player == 'g':
 			comp_win += 1
@@ -70,6 +71,8 @@ while rounds <= n:
 
 	rounds += 1
 
+print("Your Score ", (user_win))
+print("Computer Score" ,(comp_win))
 
 # Final winner based on the number of wons
 if user_win > comp_win:
